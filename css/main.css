@@ -66,7 +66,7 @@ footer p {
 }
 .works h1 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 28px;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -79,6 +79,7 @@ footer p {
   margin-bottom: 60px;
 }
 .works section h1 {
+  font-size: 24px;
   font-weight: normal;
 }
 .works p {
