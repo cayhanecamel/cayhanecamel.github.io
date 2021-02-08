@@ -70,6 +70,10 @@ footer p {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
+  line-height: 2;
+}
+.works h1 img {
+  vertical-align: middle;
 }
 .works section {
   margin-bottom: 60px;
