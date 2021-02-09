@@ -69,20 +69,20 @@ footer p{
   margin-top: 60px;
   border: 2px dashed gainsboro;
   border-radius: 10px;
+  padding: 30px 20px;
 
   h1 {
     font-weight: normal;
     font-size: 28px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 30px;
     line-height: 2;
   }
 
   ol {
+    margin: 0px;
     list-style-position: inside;
-    margin-top: 0;
-    margin-bottom: 30px;
   }
 }
 
