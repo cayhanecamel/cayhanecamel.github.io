@@ -62,7 +62,26 @@ footer p{
   }
 }
 
-.works{
+.index {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+
+  h1 {
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    line-height: 2;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+}
+
+.foods{
   width: 400px;
   margin-right: auto;
   margin-left: auto;

@@ -59,12 +59,12 @@ footer p {
   margin-right: 8px;
 }
 
-.works {
+.index {
   width: 400px;
   margin-right: auto;
   margin-left: auto;
 }
-.works h1 {
+.index h1 {
   font-weight: normal;
   font-size: 28px;
   text-align: center;
@@ -72,17 +72,34 @@ footer p {
   margin-bottom: 60px;
   line-height: 2;
 }
-.works h1 img {
+.index ol {
+  list-style-position: inside;
+}
+
+.foods {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.foods h1 {
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  line-height: 2;
+}
+.foods h1 img {
   vertical-align: middle;
 }
-.works section {
+.foods section {
   margin-bottom: 60px;
 }
-.works section h1 {
+.foods section h1 {
   font-size: 24px;
   font-weight: normal;
 }
-.works p {
+.foods p {
   line-height: 1.8;
 }
 
