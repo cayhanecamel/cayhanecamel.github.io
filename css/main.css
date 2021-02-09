@@ -65,6 +65,7 @@ footer p {
   margin-left: auto;
   margin-top: 60px;
   border: 2px dashed gainsboro;
+  border-radius: 10px;
 }
 .index h1 {
   font-weight: normal;
