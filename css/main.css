@@ -98,7 +98,11 @@ footer p {
   height: 64px;
   position: fixed;
   bottom: 0;
-  right: 10px; }
+  right: 10px;
+  cursor: pointer; }
+
+.pagetop:hover {
+  opacity: 0.8; }
 
 .new {
   width: 110px;
