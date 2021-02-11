@@ -1,5 +1,8 @@
+:root {
+  --text-color: #ff0000; }
+
 body {
-  color: #333;
+  color: var(--text-color);
   font-family: Verdana, sans-serif;
   margin: 0; }
 
