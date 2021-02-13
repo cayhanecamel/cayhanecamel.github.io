@@ -112,6 +112,67 @@
     <div class="box box3">3</div>
 </div>
 
+<h1>flex-wrap</h1>
+<p style="margin-bottom: 50px">並べたい要素の幅がコンテナ幅を超える場合にどうするか</p>
+
+<h2>flex-wrap:nowrap</h2>
+<p>折り返さず収める</p>
+<div class="container" style="flex-direction: row; flex-wrap: nowrap; width: 120px">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>flex-wrap:wrap</h2>
+<p>交差軸に従って折り返す</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; width: 200px">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>flex-wrap:wrap-reverse</h2>
+<p>交差軸対して、反転させて折り返す</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap-reverse; width: 200px">
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h1>align-content</h1>
+<p style="margin-bottom: 50px">交差軸に対して、要素をどう配置するか</p>
+
+<h2>align-content:flex-start</h2>
+<p></p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; align-content:flex-start; width: 200px; height: 300px" >
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>align-content:flex-end</h2>
+<p></p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; align-content:flex-end; width: 200px; height: 300px;" >
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>align-content:center</h2>
+<p></p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; align-content:center; width: 200px; height: 300px;" >
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>align-content:space-between</h2>
+<p></p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; align-content:space-between; width: 200px; height: 300px;" >
+    <div class="box box1">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
 
 </body>
 </html>
