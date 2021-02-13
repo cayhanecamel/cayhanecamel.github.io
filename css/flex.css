@@ -2,18 +2,24 @@
 /* ここにコードを書いて確認することができます */
 h1 {
   font-weight: normal;
+  font-size: 24px; }
+
+h2 {
+  font-weight: normal;
   font-size: 20px; }
 
 .container {
-  display: flex; }
+  display: flex;
+  background-color: antiquewhite;
+  padding: 4px;
+  margin-bottom: 70px; }
 
 .box {
   width: 100px;
   height: 100px; }
 
 .box1 {
-  background: orange;
-  flex: 1; }
+  background: orange; }
 
 .box2 {
   background: skyblue; }
