@@ -1,0 +1,27 @@
+/* ここにコードを書いて確認することができます */
+h1{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box1 {
+  background: orange;
+  flex:1;
+}
+
+.box2 {
+  background: skyblue;
+}
+
+.box3 {
+  background: tomato;
+}
