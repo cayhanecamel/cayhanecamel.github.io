@@ -140,7 +140,10 @@
 </div>
 
 <h1>align-content</h1>
-<p style="margin-bottom: 50px">交差軸に対して、要素をどう配置するか</p>
+<p >交差軸に対して、要素をどう配置するか</p>
+<p>align-content → flex-wrapで複数行になっているときに使う（複数行になっていないと意味がない）</p>
+<p style="margin-bottom: 50px">align-items → それ以外のときに使う</p>
+
 
 <h2>align-content:flex-start</h2>
 <p></p>
@@ -172,6 +175,69 @@
     <div class="box box1">1</div>
     <div class="box box2">2</div>
     <div class="box box3">3</div>
+</div>
+
+<h1>flex-item：align-self</h1>
+<p>交差軸に対して、アイテムをどう配置するか</p>
+
+<h2>align-self:flex-start</h2>
+<p>交差軸に対して開始位置に指定する</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap;  height: 300px;" >
+    <div class="box box1" style="align-self: flex-start">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>align-self:flex-end</h2>
+<p>交差軸に対して終点位置に指定する</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap;  height: 300px;" >
+    <div class="box box1" style="align-self: flex-end">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h2>align-self:center</h2>
+<p>交差軸に対して終点位置に指定する</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap;  height: 300px;" >
+    <div class="box box1" style="align-self: center">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+</div>
+
+<h1>flex-item：order</h1>
+<p>アイテム表示順</p>
+
+<h2>全指定</h2>
+<div class="container" style="flex-direction: row; flex-wrap: wrap;  height: 300px;" >
+    <div class="box box1" style="order: 3">1</div>
+    <div class="box box2" style="order: 2">2</div>
+    <div class="box box3" style="order: 1">3</div>
+</div>
+
+<h2>一部指定</h2>
+<div class="container" style="flex-direction: row; flex-wrap: wrap;  height: 300px;" >
+    <div class="box box1" >1</div>
+    <div class="box box2" style="order: 1">2</div>
+    <div class="box box3" >3</div>
+</div>
+
+<h1>flex-basis&flex-grow</h1>
+<p>アイテムの幅指定、コンテナ幅の過不足時の対応</p>
+
+<h2>flex-basis=100 & flex-grow=1,1,2</h2>
+<p>あまった80pxを１，１，２の割合で分配して間延びさせる</p>
+<div class="container" style="flex-direction: row; flex-wrap: wrap; align-content:flex-start; width: 380px; height: 150px" >
+    <div class="box box1" style="flex-basis: 100px; flex-grow: 1">1</div>
+    <div class="box box2" style="flex-basis: 100px;flex-grow: 1">2</div>
+    <div class="box box3" style="flex-basis: 100px;flex-grow: 2">3</div>
+</div>
+
+<h2>flex-basis=100 & flex-grow=1,1,2</h2>
+<p>足りない60pxを１，１，0の割合で分配して、減量させる</p>
+<div class="container" style="flex-direction: row; flex-wrap: nowrap; align-content:flex-start; width: 240px; height: 150px" >
+    <div class="box box1" style="flex-basis: 100px; flex-shrink: 1">1</div>
+    <div class="box box2" style="flex-basis: 100px;flex-shrink: 1">2</div>
+    <div class="box box3" style="flex-basis: 100px;flex-shrink: 0">3</div>
 </div>
 
 </body>
